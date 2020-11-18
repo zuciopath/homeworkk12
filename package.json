@@ -1,0 +1,29 @@
+{
+  "name": "homeworkk12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "resolve-url": "^0.2.1",
+    "source-map-resolve": "^0.6.0",
+    "urix": "^0.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuciopath/homeworkk12.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zuciopath/homeworkk12/issues"
+  },
+  "homepage": "https://github.com/zuciopath/homeworkk12#readme"
+}
