@@ -1,17 +1,18 @@
 
 'use strict';
  
+const { parallel } = require('gulp');
 var gulp = require('gulp');
 var sass = require('gulp-sass');
  
 sass.compiler = require('node-sass');
  
 gulp.task('sass', function () {
-  return gulp.src('style/main.scss')
+  return gulp.src('scss/main.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('styles'));
 });
  
 gulp.task('watch', function () {
-  gulp.watch('style/main.scss', gulp.parallel('sass'));
-});
+  gulp.watch('scss/**/*.scss', gulp.parallel('sass'));
+})

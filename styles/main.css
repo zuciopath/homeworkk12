@@ -35,31 +35,3 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
-
-.container {
-  max-width: 1024px;
-  width: 100%;
-  margin: 0 auto; }
-
-.main-header {
-  width: 100%;
-  display: flex;
-  margin-top: 30px;
-  justify-content: space-between;
-  align-items: center; }
-
-ul {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap; }
-  ul li {
-    padding-right: 30px; }
-    ul li h2 {
-      font-size: 20px;
-      color: #707070; }
-
-.banner {
-  object-fit: cover; }
-  .banner img {
-    width: 100%;
-    margin-top: 20px; }

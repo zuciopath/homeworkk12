@@ -1,0 +1,39 @@
+@import './../modules/variables.scss';
+@import './../modules/classes.scss';
+@import './../modules/mixins.scss';
+    // mixin
+    @mixin flex-content ($horizontal,$vertical){ 
+        justify-content: $horizontal; 
+        align-items: $vertical;
+    }
+        // mixin
+    
+
+    .main-header{
+        width: 100%;
+    display: flex;
+    margin-top:$size02 ;
+    @include flex-content(space-between, center)
+    }
+     ul{
+        width: 100%;
+        display: flex;
+            flex-wrap: wrap;
+            li{
+                padding-right: $size02;
+                h2{
+                    font-size: $size03 ;
+                    color:$color02 ;
+                }
+            }
+     
+    }
+    .banner{  
+        object-fit: cover;;
+        img{ width: $size01;
+            margin-top: $size03;
+        }
+    }
+    .container {
+        @extend %container
+    }
